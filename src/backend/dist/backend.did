@@ -1,0 +1,13 @@
+type Lead = 
+ record {
+   businessType: text;
+   id: nat;
+   name: text;
+   requirement: text;
+   timestamp: int;
+ };
+service : {
+  getLeads: () -> (vec Lead) query;
+  submitLead: (name: text, businessType: text, requirement: text) ->
+   (record {id: nat;});
+}

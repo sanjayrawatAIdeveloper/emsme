@@ -1,0 +1,24 @@
+{
+  "overview": "eMSME is a digital platform connecting MSMEs, startups, and entrepreneurs in India to 600+ government schemes, funding, compliance services, and expert consultation. The site generates leads, promotes services, builds trust, and guides users to discover eligible schemes.",
+  "features": [
+    "Interactive MSME scheme eligibility tool with dynamic filtering",
+    "About page with mission, vision, leadership, and timeline",
+    "Detailed services page with benefits, process steps, and per-section CTAs",
+    "Partners showcase with government and banking associations",
+    "Resources hub with blog, FAQs, and downloadable guides",
+    "Contact page with lead form, WhatsApp CTA, and map embed placeholder",
+    "Mobile-first responsive design matching homepage style"
+  ],
+  "category": "business-finance",
+  "tags": [
+    "msme",
+    "india",
+    "government-schemes",
+    "fintech",
+    "business",
+    "startup",
+    "funding",
+    "compliance"
+  ],
+  "last_updated": "2026-05-05T16:24:33.427Z"
+}

@@ -1,0 +1,20 @@
+// Version: 1.0.0
+type Lead__531162083 =
+  {
+    businessType : Text;
+    id : Nat;
+    name : Text;
+    requirement : Text;
+    timestamp : Int
+  };
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+actor {
+  stable leadCounter : {var value : Nat};
+  stable leads :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Lead__531162083]];
+      var elementIndex : Nat__490723111
+    }
+};
